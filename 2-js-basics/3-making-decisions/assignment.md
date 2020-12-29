@@ -33,6 +33,22 @@ let allStudents = [
 let studentsWhoPass = [];
 ```
 
+ let allStudents=["A","B-",1,4,5,2]
+    let studentWhoPass=[];
+    for (const element of allStudents)
+    {
+            if (element < 3)
+                    studentWhoPass.push(element)
+            else if(element == "A")
+                        studentWhoPass.push(element)
+             else if( element =="B-")
+                        studentWhoPass.push(element)
+            else if ( element == "c")
+                studentWhoPass.push(element)
+            else
+            console.log("do nothing ")
+    }
+
 ## Rubric
 
 | Criteria | Exemplary                      | Adequate                      | Needs Improvement               |
